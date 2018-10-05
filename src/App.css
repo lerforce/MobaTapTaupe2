@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+    
+    height: 13vmin;
+    mix-blend-mode: multiply;
+    animation: App-logo-spin infinite 10s;
+}
+
+.StartBut {
+    display: block;
+    height: 13vmin;
+    width: 30vmin;
+    font-size: 125%;
+}
+
+.BlackBall {
+background-color: black;
+    width: 3vmin;
+    height: 3vmin;
+    border-radius: 50px;
+    float: left;
+}
+
+.RedBall {
+    background-color: red;
+    width: 3vmin;
+    height: 3vmin;
+    border-radius: 50px;
+    float: left;
+}
+
+.App-header {
+    background-color: #00A69D;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Ball-display {
+    font-size: calc(10px + 2vmin);
+}
+
+.App-body {
+    min-height: 100vh;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    text-indent: left;
+    line-height: 0.1;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
