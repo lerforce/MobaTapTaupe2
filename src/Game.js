@@ -84,7 +84,6 @@ class Game extends Component {
 	let status;
 	let nbTurn;
 	let nbBowl;
-	let rand;
 	let balls=[];
 	const timer = this.state.count;
 	const turn = this.state.turn;
@@ -95,7 +94,6 @@ class Game extends Component {
 	    status = 'Temps : ' + timer;
 	    nbTurn = 'Tour : ' + turn;
 	    nbBowl = 'N°boules : ' + this.state.previous1;
-	    rand = 'Random = ' + this.state.random + '/' + this.state.previous1;
 	    
 	}
 	if (this.state.buttonOn) {

@@ -9,7 +9,7 @@ class App extends Component {
     render() {
 	return (
 	    <div className='App-header'>
-	      <img src={Logo} className='App-logo'/>
+	      <img src={Logo} className='App-logo' alt='logo'/>
 	      <h1> MobaTapTaupe </h1>
 	      <h3> Le but est de cliquer sur le bouton ROUGE </h3>
 	      <div>
