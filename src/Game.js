@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import blackBall from './boule_noire.svg'
-import redBall from './boule_rouge.svg'
 
 var startTime = 2;
 var nbTurn=1;
